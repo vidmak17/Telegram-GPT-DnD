@@ -1,0 +1,22 @@
+# GPT DnD Telegram Bot
+
+Цей бот дозволяє грати в текстову рольову гру DnD у Telegram, керовану GPT.
+
+## Що потрібно:
+1. Зареєструвати бота через @BotFather та отримати TELEGRAM_TOKEN.
+2. Отримати API ключ на https://platform.openai.com/account/api-keys.
+
+## Запуск:
+- Встанови залежності:
+```bash
+pip install -r requirements.txt
+```
+- Створи `.env` файл на основі `.env.example`:
+```env
+TELEGRAM_TOKEN=...
+OPENAI_API_KEY=...
+```
+- Запусти бота:
+```bash
+python main.py
+```
